@@ -3,7 +3,6 @@
 * [Welcome to JSDC Loader](README.md)
 * [Getting Started](getting-started/README.md)
   * [Installation](getting-started/installation.md)
-  * [Quick Start](getting-started/quick-start.md)
 * [Usage](usage.md)
 * [API Reference](api-reference/README.md)
   * [jsdc\_load](api-reference/jsdc\_load.md)
