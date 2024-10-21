@@ -1,10 +1,8 @@
 # API Reference
 
-This section provides detailed information about the JSDC Loader API. Here you'll find comprehensive documentation for each function and class in the library.
+This section provides detailed information about the main functions provided by JSDC Loader:
 
-## Contents
+- [jsdc_load](jsdc_load.md): Function for loading JSON configuration files into dataclass objects.
+- [jsdc_dump](jsdc_dump.md): Function for dumping dataclass objects to JSON configuration files.
 
-* [jsdc_load](jsdc-load.md): Documentation for the `jsdc_load` function.
-* [jsdc_dump](jsdc-dump.md): Documentation for the `jsdc_dump` function.
-
-Refer to these pages for in-depth information about the JSDC Loader API, including function signatures, parameters, return types, and usage examples.
+These functions form the core of JSDC Loader's functionality, allowing you to easily manage your configuration data using dataclasses and JSON files.

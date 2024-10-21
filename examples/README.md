@@ -1,11 +1,7 @@
-# Examples
+# JSDC Loader Examples
 
-This section contains practical examples of using JSDC Loader in various scenarios. These examples will help you understand how to apply JSDC Loader to real-world situations.
+This section provides practical examples of how to use JSDC Loader in various scenarios.
 
-## In this section
-
-* [Simple Configuration](simple-configuration.md): A basic example of loading a simple JSON configuration.
-* [Nested Configuration](nested-configuration.md): Learn how to handle nested configuration structures.
-* [Enum Support](enum-support.md): An example demonstrating how to use enums in your configurations.
-
-These examples provide concrete implementations that you can use as a reference when working with JSDC Loader in your own projects.
+- [Simple Configuration](simple-configuration.md): A basic example of loading a simple configuration.
+- [Nested Configuration](nested-configuration.md): An example of working with nested dataclass structures.
+- [Enum and Complex Types](enum-and-complex-types.md): An example demonstrating the use of Enum and other complex types in configurations.

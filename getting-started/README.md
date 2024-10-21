@@ -1,10 +1,6 @@
-# Getting Started
+# Getting Started with JSDC Loader
 
-Welcome to the Getting Started guide for JSDC Loader. This section will help you quickly set up and begin using JSDC Loader in your Python projects.
+This section will guide you through the process of installing JSDC Loader and getting it up and running in your Python project.
 
-## In this section
-
-* [Installation](installation.md): Learn how to install JSDC Loader in your Python environment.
-* [Quick Start](quickstart.md): Get a quick overview of how to use JSDC Loader with a simple example.
-
-By following these guides, you'll be able to integrate JSDC Loader into your project and start managing your JSON configurations with ease.
+- [Installation](installation.md): Learn how to install JSDC Loader in your Python environment.
+- [Quick Start](quick-start.md): Get a quick overview of how to use JSDC Loader in your project.

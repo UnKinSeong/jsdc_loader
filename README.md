@@ -1,23 +1,23 @@
 # Welcome to JSDC Loader
 
-JSDC Loader (JSON Data Class Loader) is a Python utility for loading JSON configuration files into dataclass objects. It provides a simple and type-safe way to manage configuration data in your Python applications by enforcing the use of dataclasses and type hinting.
+JSDC Loader (JSON Data Class Loader) is a Python utility for loading JSON configuration files into dataclass objects. It provides a simple and type-safe way to manage configuration data in your Python applications by forcing the use of dataclass and type hinting.
 
 ## Features
 
-* Load JSON configuration files into dataclass objects
-* Support for nested dataclass structures
-* Type checking and conversion for configuration values
-* Easy updating of configuration from different files
-* Ability to dump modified configurations back to JSON
+- Load JSON configuration files into dataclass objects
+- Support for nested dataclass structures
+- Type checking and conversion for configuration values
+- Easy updating of configuration from different files
+- Ability to dump modified configurations back to JSON
 
 ## Quick Navigation
 
-* [Getting Started](getting-started/README.md)
-* [Usage](usage/README.md)
-* [API Reference](api-reference/README.md)
-* [Examples](examples/README.md)
-* [Contributing](contributing.md)
-* [License](license.md)
+- [Getting Started](getting-started/README.md)
+- [Usage](usage/README.md)
+- [API Reference](api-reference/README.md)
+- [Examples](examples/README.md)
+- [Contributing](contributing.md)
+- [License](license.md)
 
 ## About
 

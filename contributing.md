@@ -1,17 +1,18 @@
-# Contributing
+# Contributing to JSDC Loader
 
-We welcome contributions to JSDC Loader! If you're interested in helping improve this project, here's how you can contribute:
+We welcome contributions to JSDC Loader! If you'd like to contribute, please follow these steps:
 
-1. **Report bugs**: If you find a bug, please open an issue in our GitHub repository with a clear description of the problem.
+1. Fork the repository
+2. Create a new branch for your feature or bug fix
+3. Make your changes
+4. Write tests for your changes
+5. Run the test suite to ensure all tests pass
+6. Submit a pull request
 
-2. **Suggest enhancements**: Have an idea for a new feature or improvement? Open an issue to discuss it.
+Please make sure to update tests as appropriate and adhere to the existing coding style.
 
-3. **Submit pull requests**: If you've fixed a bug or implemented a new feature, feel free to submit a pull request.
+## Reporting Issues
 
-4. **Improve documentation**: Help us improve our documentation by fixing errors or adding more examples.
+If you encounter any bugs or have feature requests, please open an issue on the GitHub repository.
 
-5. **Share your experience**: Write about how you're using JSDC Loader or create tutorials to help others.
-
-Please make sure to read our Code of Conduct and Contributing Guidelines before making a contribution.
-
-Thank you for helping make JSDC Loader better!
+Thank you for your interest in improving JSDC Loader!
