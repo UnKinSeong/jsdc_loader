@@ -12,7 +12,7 @@ JSDC Loader (JSON Data Class Loader) is a Python utility for loading JSON config
 
 ## Quick Navigation
 
-* [Getting Started](getting-started/)
+* [Getting Started](getting-started.md)
 * [Usage](usage.md)
 * [API Reference](api-reference/)
 * [Examples](examples/)

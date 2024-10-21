@@ -1,8 +1,7 @@
 # Table of contents
 
 * [Welcome to JSDC Loader](README.md)
-* [Getting Started](getting-started/README.md)
-  * [Installation](getting-started/installation.md)
+* [Getting Started](getting-started.md)
 * [Usage](usage.md)
 * [API Reference](api-reference/README.md)
   * [jsdc\_load](api-reference/jsdc\_load.md)
