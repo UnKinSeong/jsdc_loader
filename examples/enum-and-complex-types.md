@@ -1,6 +1,6 @@
-# Enum and Complex Types Example
+# Complex / Nested Configuration
 
-This example shows how to use Enum and other complex types in your configurations:
+This example shows how to use Enum and other complex types, as long as nested dataclass in your configurations:
 
 ```python
 from dataclasses import dataclass, field
@@ -40,4 +40,4 @@ print(loaded_app_config.user.user_type)  # Accessing the user type attribute fro
 print(loaded_app_config.user.married)  # Accessing the boolean attribute from the loaded data
 ```
 
-This example demonstrates how to use Enum types and boolean values in your dataclass configurations, showing JSDC Loader's ability to handle more complex data types.
+This example demonstrates how to use Enum types and boolean values in your dataclass configurations, as well as the nested assignment, showing JSDC Loader's ability to handle more complex data types.
