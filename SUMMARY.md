@@ -1,17 +1,18 @@
 # Table of contents
 
-* [Welcome](README.md)
-
-## Getting Started
-
-* [Quickstart](getting-started/quickstart.md)
-* [Publish your docs](getting-started/publish-your-docs.md)
-
-## Basics
-
-* [Editor](basics/editor.md)
-* [Markdown](basics/markdown.md)
-* [Images & media](basics/images-and-media.md)
-* [Interactive blocks](basics/interactive-blocks.md)
-* [OpenAPI](basics/openapi.md)
-* [Integrations](basics/integrations.md)
+* [Welcome to JSDC Loader](README.md)
+* [Getting Started](getting-started/README.md)
+  * [Installation](getting-started/installation.md)
+  * [Quick Start](getting-started/quickstart.md)
+* [Usage](usage/README.md)
+  * [Basic Usage](usage/basic-usage.md)
+  * [Advanced Usage](usage/advanced-usage.md)
+* [API Reference](api-reference/README.md)
+  * [jsdc_load](api-reference/jsdc-load.md)
+  * [jsdc_dump](api-reference/jsdc-dump.md)
+* [Examples](examples/README.md)
+  * [Simple Configuration](examples/simple-configuration.md)
+  * [Nested Configuration](examples/nested-configuration.md)
+  * [Enum Support](examples/enum-support.md)
+* [Contributing](contributing.md)
+* [License](license.md)
