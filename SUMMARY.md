@@ -9,5 +9,6 @@
 * [Examples](examples/README.md)
   * [Simple Configuration](examples/simple-configuration.md)
   * [Complex / Nested Configuration](examples/enum-and-complex-types.md)
+  * [Optional Fields](examples/optional-fields.md)
 * [Contributing](contributing.md)
 * [License](license.md)

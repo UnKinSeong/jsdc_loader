@@ -1,5 +1,7 @@
 # Getting Started
 
+This guide will help you get started with JSDC Loader, from installation to your first configuration file.
+
 ## Installation
 
 To install JSDC Loader, you can use pip:
@@ -63,24 +65,51 @@ jsdc_dump(config, 'config.json')
 loaded_config = jsdc_load('config.json', AppConfig)
 ```
 
-## Important Notes
+## Understanding the Default Factory Requirement
 
-1. For primitive types (str, int, bool, etc.), you can use direct default values:
-   ```python
-   name: str = "default"
-   port: int = 8080
-   ```
+JSDC Loader requires the use of `field(default_factory=lambda: ...)` for complex types for several important reasons:
 
-2. For complex types (Enums, nested dataclasses), always use default_factory:
-   ```python
-   logger: LoggerConfig = field(default_factory=lambda: LoggerConfig())
-   level: LogLevel = field(default_factory=lambda: LogLevel.INFO)
-   ```
+1. **Type Safety**: Ensures proper initialization of complex types with their default values
+2. **Immutability**: Prevents shared mutable state between instances
+3. **Serialization**: Guarantees correct JSON serialization/deserialization
 
-3. The default_factory requirement ensures:
-   - Proper initialization of complex types
-   - Type safety throughout your configuration
-   - Correct serialization/deserialization behavior
+Without using default_factory, you might encounter issues like:
+- Shared references between instances
+- Improper initialization of nested structures
+- Type conversion errors during serialization/deserialization
+
+## Type Handling Guidelines
+
+### Simple Types
+
+For primitive types (str, int, bool, etc.), you can use direct default values:
+```python
+name: str = "default"
+port: int = 8080
+```
+
+### Complex Types
+
+For complex types (Enums, nested dataclasses), always use default_factory:
+```python
+logger: LoggerConfig = field(default_factory=lambda: LoggerConfig())
+level: LogLevel = field(default_factory=lambda: LogLevel.INFO)
+```
+
+### Collection Types
+
+For collection types (list, dict), also use default_factory:
+```python
+tags: list[str] = field(default_factory=lambda: ["default"])
+properties: dict[str, str] = field(default_factory=lambda: {"key": "value"})
+```
+
+### Optional Types
+
+For optional types, use default_factory with None:
+```python
+username: Optional[str] = field(default_factory=lambda: None)
+```
 
 ## Next Steps
 
